@@ -1,0 +1,7 @@
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\bin\Debug\Solid_Principle.exe.config
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\bin\Debug\Solid_Principle.exe
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\bin\Debug\Solid_Principle.pdb
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\obj\Debug\Solid_Principle.csproj.AssemblyReference.cache
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\obj\Debug\Solid_Principle.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\obj\Debug\Solid_Principle.exe
+C:\Users\Daniel Fromer\Source\Repos\Solid_CS\obj\Debug\Solid_Principle.pdb

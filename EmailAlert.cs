@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal class DatabaseLogger : ILogger
+    internal class EmailAlert : IEmailAlert
     {
-        public void Log(string message)
+        public void SendEmail(string message)
         {
-            Console.WriteLine($"Log to database: {message}");
+            Console.WriteLine($"Email sent: {message}");
         }
     }
     

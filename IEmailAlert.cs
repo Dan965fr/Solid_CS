@@ -8,5 +8,6 @@ namespace Solid_Principle
 {
     internal interface IEmailAlert
     {
+        void SendEmail(string message);
     }
 }

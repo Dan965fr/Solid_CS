@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal interface ISmsAlert
+    internal interface IInAppAlert
     {
-        void SendSms(string message);
+        void ShowInAppAlert(string message);
     }
 }

@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseLogger.cs" />
+    <Compile Include="EmailAlert.cs" />
+    <Compile Include="EmergencyHandler.cs" />
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="IEmailAlert.cs" />
+    <Compile Include="IInAppAlert.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="ISmsAlert.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RocketLauncher.cs" />
+    <Compile Include="TelemetrySender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
