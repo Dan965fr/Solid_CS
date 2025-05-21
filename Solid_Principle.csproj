@@ -54,6 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RocketLauncher.cs" />
+    <Compile Include="SystemHandler.cs" />
     <Compile Include="TelemetrySender.cs" />
   </ItemGroup>
   <ItemGroup>

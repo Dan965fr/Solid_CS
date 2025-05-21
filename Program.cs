@@ -10,18 +10,15 @@ namespace Solid_Principle
     {
         static void Main(string[] args)
         {
-            ILogger logger = new FileLogger();
-            IEmailAlert emailAlert = new EmailAlert();
-
-            EmergencyHandler emergencyHandler = new EmergencyHandler(logger, emailAlert);
-            RocketLauncher rocketLauncher = new RocketLauncher();
-            TelemetrySender telemetrySender = new TelemetrySender();
+            SystemHandler handler = new SystemHandler();
+            handler.HandlerEmergency();
+            handler.Rocket();
+        }
+        
+            
 
             
-            rocketLauncher.Lunch();
-            telemetrySender.Send();
-            emergencyHandler.HandleEmergency();
-        }
+           
 
     }
     
